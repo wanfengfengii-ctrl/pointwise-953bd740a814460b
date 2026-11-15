@@ -4,10 +4,12 @@
   "setup": [],
   "verify": [
     "python3",
-    "fixture_check.py"
+    "-I",
+    "verify_changes.py"
   ],
   "demo": [
     "python3",
-    "fixture_check.py"
+    "-I",
+    "demo_changeimport.py"
   ]
 }
